@@ -1,0 +1,27 @@
+{
+  "name": "aqua-mist",
+  "displayName": "Aqua Mist",
+  "description": "A soft cyan theme with light tones, offering a calm and refreshing coding experience, perfect for extended use without eye strain.",
+  "version": "0.0.1",
+  "publisher": "parmindersingh",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/360Parminder/Aqua-Mist"
+  },
+  
+  "engines": {
+    "vscode": "^1.93.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Aqua Mist",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Aqua Mist-color-theme.json"
+      }
+    ]
+  }
+}
